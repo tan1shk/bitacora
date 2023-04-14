@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  line-height: 21px; 
+  font-size: 19px;
+}
+.navbar h1 {
+  color: #de4a2d;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #de4a2d;
+  font-size: 20px;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.note-list h2 {
+  color: rgb(0, 0, 0)
+}
+.note-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-radius: 8px;
+  border-bottom: 1px solid #818181;
+}
+.note-preview:hover {
+  box-shadow: 1px 1px 1px #de4a2d;
+}
+.note-preview h2 {
+  font-size: 20px;
+  color: #de4a2d;
+  margin-bottom: 8px;
+}
+.note-preview a{
+  text-decoration: none;
+}
+/* note details page */
+.note-details h2 {
+  font-size: 20px;
+  color: #de4a2d;
+  margin-bottom: 10px;
+}
+.note-details div {
+  margin: 20px 0;
+}
+.note-details button {
+  background: #de4a2d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+/* create new note form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #de4a2d;
+  margin-bottom: 30px;
+}
+.create input, .create textarea {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #de4a2d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
