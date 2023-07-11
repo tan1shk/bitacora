@@ -14,3 +14,4 @@ make sure that you run json-server on port 4500
 
      npm start
      
+start in another terminal 
